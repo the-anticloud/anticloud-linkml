@@ -1,0 +1,229 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:edf8ee40-dcf6-5f97-9a22-0dbe707b0e6b",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:08:54Z",
+  "component": {
+   "type": "application",
+   "name": "LINKML",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/LINKML@83b357604d34",
+   "purl": "pkg:generic/anticloud/LINKML@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "click",
+   "version": ">=",
+   "purl": "pkg:pypi/click@",
+   "bom-ref": "pypi/click@>="
+  },
+  {
+   "type": "library",
+   "name": "deprecated",
+   "version": "unspecified",
+   "purl": "pkg:pypi/deprecated",
+   "bom-ref": "pypi/deprecated@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "hbreader",
+   "version": "unspecified",
+   "purl": "pkg:pypi/hbreader",
+   "bom-ref": "pypi/hbreader@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "json-flattener",
+   "version": ">=0.1.9",
+   "purl": "pkg:pypi/json-flattener@0.1.9",
+   "bom-ref": "pypi/json-flattener@>=0.1.9"
+  },
+  {
+   "type": "library",
+   "name": "jsonasobj2",
+   "version": "==1.*",
+   "purl": "pkg:pypi/jsonasobj2@1.*",
+   "bom-ref": "pypi/jsonasobj2@==1.*"
+  },
+  {
+   "type": "library",
+   "name": "jsonschema",
+   "version": ">=4.26.0",
+   "purl": "pkg:pypi/jsonschema@4.26.0",
+   "bom-ref": "pypi/jsonschema@>=4.26.0"
+  },
+  {
+   "type": "library",
+   "name": "prefixcommons",
+   "version": ">=0.1.12",
+   "purl": "pkg:pypi/prefixcommons@0.1.12",
+   "bom-ref": "pypi/prefixcommons@>=0.1.12"
+  },
+  {
+   "type": "library",
+   "name": "pyyaml",
+   "version": "unspecified",
+   "purl": "pkg:pypi/pyyaml",
+   "bom-ref": "pypi/pyyaml@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "rdflib",
+   "version": ">=7.6.0",
+   "purl": "pkg:pypi/rdflib@7.6.0",
+   "bom-ref": "pypi/rdflib@>=7.6.0"
+  },
+  {
+   "type": "library",
+   "name": "requests",
+   "version": "unspecified",
+   "purl": "pkg:pypi/requests",
+   "bom-ref": "pypi/requests@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "prefixmaps",
+   "version": ">=0.1.4",
+   "purl": "pkg:pypi/prefixmaps@0.1.4",
+   "bom-ref": "pypi/prefixmaps@>=0.1.4"
+  },
+  {
+   "type": "library",
+   "name": "curies",
+   "version": ">=0.14.6",
+   "purl": "pkg:pypi/curies@0.14.6",
+   "bom-ref": "pypi/curies@>=0.14.6"
+  },
+  {
+   "type": "library",
+   "name": "pyoxigraph",
+   "version": ">=0.5.11",
+   "purl": "pkg:pypi/pyoxigraph@0.5.11",
+   "bom-ref": "pypi/pyoxigraph@>=0.5.11"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": ">=2.13.5",
+   "purl": "pkg:pypi/pydantic@2.13.5",
+   "bom-ref": "pypi/pydantic@>=2.13.5"
+  },
+  {
+   "type": "library",
+   "name": "isodate",
+   "version": ">=0.7.2",
+   "purl": "pkg:pypi/isodate@0.7.2",
+   "bom-ref": "pypi/isodate@>=0.7.2"
+  },
+  {
+   "type": "library",
+   "name": "antlr4-python3-runtime",
+   "version": ">=",
+   "purl": "pkg:pypi/antlr4-python3-runtime@",
+   "bom-ref": "pypi/antlr4-python3-runtime@>="
+  },
+  {
+   "type": "library",
+   "name": "graphviz",
+   "version": ">=",
+   "purl": "pkg:pypi/graphviz@",
+   "bom-ref": "pypi/graphviz@>="
+  },
+  {
+   "type": "library",
+   "name": "jinja2",
+   "version": ">=",
+   "purl": "pkg:pypi/jinja2@",
+   "bom-ref": "pypi/jinja2@>="
+  },
+  {
+   "type": "library",
+   "name": "name",
+   "version": "personinfo",
+   "purl": "pkg:cargo/name@personinfo",
+   "bom-ref": "cargo/name@personinfo"
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "version": "0.0.0",
+   "purl": "pkg:cargo/version@0.0.0",
+   "bom-ref": "cargo/version@0.0.0"
+  },
+  {
+   "type": "library",
+   "name": "edition",
+   "version": "2021",
+   "purl": "pkg:cargo/edition@2021",
+   "bom-ref": "cargo/edition@2021"
+  },
+  {
+   "type": "library",
+   "name": "pyo3",
+   "version": "0.25.0",
+   "purl": "pkg:cargo/pyo3@0.25.0",
+   "bom-ref": "cargo/pyo3@0.25.0"
+  },
+  {
+   "type": "library",
+   "name": "serde",
+   "version": "1.0",
+   "purl": "pkg:cargo/serde@1.0",
+   "bom-ref": "cargo/serde@1.0"
+  },
+  {
+   "type": "library",
+   "name": "serde-value",
+   "version": "0.7.0",
+   "purl": "pkg:cargo/serde-value@0.7.0",
+   "bom-ref": "cargo/serde-value@0.7.0"
+  },
+  {
+   "type": "library",
+   "name": "serde_yml",
+   "version": "0.0.12",
+   "purl": "pkg:cargo/serde_yml@0.0.12",
+   "bom-ref": "cargo/serde_yml@0.0.12"
+  },
+  {
+   "type": "library",
+   "name": "serde_path_to_error",
+   "version": "0.1.17",
+   "purl": "pkg:cargo/serde_path_to_error@0.1.17",
+   "bom-ref": "cargo/serde_path_to_error@0.1.17"
+  },
+  {
+   "type": "library",
+   "name": "chrono",
+   "version": "0.4.41",
+   "purl": "pkg:cargo/chrono@0.4.41",
+   "bom-ref": "cargo/chrono@0.4.41"
+  }
+ ],
+ "sha_unverified": true
+}
