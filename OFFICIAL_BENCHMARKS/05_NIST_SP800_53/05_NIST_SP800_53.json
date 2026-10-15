@@ -1,0 +1,16 @@
+{
+ "framework": "05_NIST_SP800_53",
+ "title": "NIST SP 800-53 rev5 security controls",
+ "project": "LINKML",
+ "basis": [
+  {
+   "check": "10_nist_sp_800_53",
+   "status": "PASS",
+   "observed": "{\"authority\": \"NIST\", \"control_ids\": [\"AC-3(2)\", \"AC-6(7)\", "
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "ae046331a8c9e9a0a4a2eaddd16e1db5910792ea48574e1ddb15631b031865a4",
+ "register_sha3": "da986c5db4a52fe39f8d5f1ac17f03eb1093afc571168f371a6a40cc7a61b944"
+}
